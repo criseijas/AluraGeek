@@ -1,0 +1,59 @@
+.cabecera{
+    background: #FFFFFF;
+}
+
+.seccion_ppal{
+    width: 100%;
+    padding: 1rem 2rem;
+}
+
+.caja_ppal{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.formulario_buscador{
+    display: flex;
+    align-items: center;
+}
+
+.buscador{
+    width: 400px;
+    height: 40px;
+    background: #F5F5F5;
+    border-style: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 20px 0 0 20px;
+    padding-left: 16px;
+}
+
+.btn_lupa{
+    height: 40px;
+    background: #F5F5F5;
+    border-style: none;
+    border-radius: 0px 20px 20px 0px;
+    cursor: pointer;
+}
+
+.fa{
+    margin-right: 15px;
+    color: #A2A2A2;
+}
+
+.btn_login{
+    box-sizing: border-box;
+    color: #2a7ae4;
+    border: 2px solid #2a7ae4;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-weight: 600; 
+}
