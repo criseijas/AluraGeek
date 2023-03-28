@@ -1,3 +1,4 @@
+/*Sección principal*/
 .cabecera{
     background: #FFFFFF;
 }
@@ -30,6 +31,7 @@
     line-height: 16px;
     border-radius: 20px 0 0 20px;
     padding-left: 16px;
+    outline: none;
 }
 
 .btn_lupa{
@@ -57,3 +59,69 @@
     font-size: 14px;
     font-weight: 600; 
 }
+
+.btn_login:hover{
+    background: #D4E4FA;
+}
+
+/*Banner*/
+
+.banner_promocional{
+    height: 360px;
+    background: url("../assets/banner.png") center / cover no-repeat;
+}
+
+.banner_promocional__text{
+    width: 100%; 
+    height: auto;
+    padding: 70px 32px;
+}
+
+.title_promocional{
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.descripcion_promocional{
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.btn_promocional{
+    color: #FFFFFF;
+    background: #2A7AE4;
+    width: 129px;
+    height: 51px;
+    border-style: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+}
+.btn_promocional:hover{
+    background: #5595E9;
+}
+
+.banner_promocional{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.banner_promocional__text{
+    display: flex;
+    flex-direction: column;
+}
+
+/*Responsive*/
+

@@ -1,0 +1,108 @@
+.productos{
+    padding-bottom: 16px;
+}
+
+.productos_principal{
+    margin: 0 auto;
+    padding: 16px 10%;
+}
+
+.title_categoria{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+}
+
+.btn_todo{
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+}
+
+.productos_descripcion{ 
+    margin: 0 auto;
+    padding: 32px 10%;
+}
+
+.contenedor img{
+    width: 100%;
+    height: 174px;
+}
+
+.nombre_producto{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #464646;
+    /*align-self: stretch;*/
+}
+
+.precio_producto{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    align-self: stretch;
+}
+
+.link_producto{
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+}
+
+/*Flexbox*/
+
+/*productos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productos_principal{
+    flex-wrap: wrap;
+}*/
+/*.productos .productos_descripcion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}*/
+/*.consolas .consolas_principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.consolas .consolas_descripcion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+.diversos .diversos_principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.diversos .diversos_descripcion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}*/
+
