@@ -1,0 +1,30 @@
+
+.consolas{
+    padding-bottom: 16px;
+}
+
+.consolas_principal{ 
+    margin: 0 auto;
+    padding: 16px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.consolas_descripcion{ 
+    margin: 0 auto;
+    padding: 16px 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*@media screen and (max-width:1280px){
+    .consolas_principal{
+        padding: 16px 5%;
+        
+    }
+    .consolas_descripcion{ 
+        padding: 16px 5%;
+    }
+}*/
