@@ -95,6 +95,7 @@
     color: #464646;
     align-self: stretch;
 }
+
 .link_producto{
     text-decoration: none;
     font-family: 'Raleway';
@@ -104,6 +105,7 @@
     line-height: 19px;
     color: #2A7AE4;
 }
+
 /*Estilo del div appendChild */
 .div_acd{
     display: flex;
