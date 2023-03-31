@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./css/descripcion-productos.css">
     <link rel="stylesheet" href="css/consolas.css">
     <link rel="stylesheet" href="css/diversos.css">
+    <link rel="stylesheet" href="css/rodapie.css">
     
 </head>
 
@@ -288,8 +289,45 @@
                 </div>
             </div>
         </section> 
-        
-    </main>    
+    </main>
+    <footer>
+        <section class="rodapie">
+            <div class="menu_contacto">
+                <div class="menu_contacto__box">
+                    <div class="menu_contacto__contenido">
+                        <a href="index.html">                    
+                            <img src="assets/Logo.png" alt="AluraGeek">
+                        </a>
+                    </div>
+                    <ul class="main">
+                            <li class="main_contenedor"><a class="main_link" href="#">Quienes somos</a></li>
+                            <li class="main_contenedor"><a class="main_link" href="#">Política de privacidad</a></li>
+                            <li class="main_contenedor"><a class="main_link" href="#">Programa de fidelidad</a></li>
+                            <li class="main_contenedor"><a class="main_link" href="#">Nuestras Tiendas</a></li>
+                            <li class="main_contenedor"><a class="main_link" href="#">Quiero ser franquiciado</a></li>
+                            <li class="main_contenedor"><a class="main_link" href="#">Anúncie aquí</a></li>
+                    </ul>
+                
+                </div>
+                
+                <div class="contacto">
+                    <form action="#" class="contacto_form">
+                        <fieldset>
+                            <legend class="title_contacto">Hable con nosotros</legend>
+                            <input class="input_nombre" type="text" placeholder="Escribe tu nombre" required data-tipo="nombre" pattern="[\s\S]{4,40}">
+                            <label for="nombre"></label>
+                            <label for="mensaje"></label>
+                            <textarea class="input_mensaje" type="text" placeholder="Escribe tu mensaje" required data-tipo="mensaje" pattern="[\s\S]{5,120}"></textarea>
+                        </fieldset>
+                        <button class="btn_contacto">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+                        
+        </section>
+        <div class="rodapie_end">
+            <h4 class="desarrollo">Desarrollado por Cristina Seijas 2023</h4>  
+        </div>
+    </footer>    
 </body>
-
 </html>
